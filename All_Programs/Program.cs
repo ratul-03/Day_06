@@ -29,7 +29,32 @@ namespace All_Programs
       }
       */
 
-      
+      // Pattern 1
+      int n = 4;
+
+      for (int i = 1; i <= n; i++)
+      {
+        for (int j = 1; j <= i; j++)
+        {
+          Console.Write("*");
+        }
+        Console.WriteLine();
+      }
+
+      Console.WriteLine();
+      Console.WriteLine();
+
+      // Pattern 2
+      int a = 1;
+
+      for (int i = 5; i >= a; i--)
+      {
+        for (int j = 1; j <= i; j++)
+        {
+          Console.Write("*");
+        }
+        Console.WriteLine(); 
+      }
     }
   }
 }
