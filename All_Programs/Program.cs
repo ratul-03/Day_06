@@ -53,7 +53,23 @@ namespace All_Programs
         {
           Console.Write("*");
         }
-        Console.WriteLine(); 
+        Console.WriteLine();
+      }
+
+      // Pattern 3
+      int b = 5;
+
+      for (int i = 1; i <= b; i++)
+      {
+        for (int j = 1; j <= i - 1; j++)
+        {
+          Console.Write(" ");
+        }
+        for (int j = 1; j <= b -i + 1; j++)
+        {
+          Console.Write("*");
+        }
+        Console.WriteLine();
       }
     }
   }
