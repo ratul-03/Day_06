@@ -105,12 +105,32 @@ namespace All_Programs
         {
           Console.Write(" ");
         }
-        for (int j = 1; j <= (2 * i -1); j++)
+        for (int j = 1; j <= (2 * i - 1); j++)
         {
           Console.Write("*");
         }
         Console.WriteLine();
       }
+
+      Console.WriteLine();
+      Console.WriteLine();
+
+      // Pattern 6
+      int e = 5;
+
+      for (int i = 1; i <= e; i++)
+      {
+        for (int j = 1; j <= i - 1; j++)
+        {
+          Console.Write(" ");
+        }
+        for (int j = 1; j <= 2 * (e - i) + 1; j++)
+        {
+          Console.Write("*");
+        }
+        Console.WriteLine();
+      }
+
     }
   }
 }
